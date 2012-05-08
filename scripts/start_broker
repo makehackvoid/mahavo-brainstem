@@ -1,0 +1,4 @@
+#!/bin/bash
+
+nohup /usr/local/sbin/mosquitto &> /dev/null &
+

@@ -1,0 +1,2 @@
+The alarm will automatically arm in 10 minutes
+
