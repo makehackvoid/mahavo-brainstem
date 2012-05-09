@@ -1,7 +1,7 @@
 
 
 install:
-	install start_broker $HOME/bin/
-	install deploy_mahavo.sh $HOME/bin/
+	install start_broker ${HOME}/bin/
+	install deploy_mahavo.sh ${HOME}/bin/
 	crontab mahavo.crontab
 
