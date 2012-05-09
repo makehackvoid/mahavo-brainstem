@@ -1,4 +1,4 @@
 mahavo-brainstem
 ================
 
-Code for our hackerspace nervous system
+Code for the mhv hackerspace nervous system

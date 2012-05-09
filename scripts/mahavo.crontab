@@ -20,6 +20,7 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-@reboot              /home/mahavo/bin/start_broker
+@reboot              $HOME/bin/start_broker
+ 0  18 *   *   2     $HOME/bin/deploy_mahavo.sh
 
 
