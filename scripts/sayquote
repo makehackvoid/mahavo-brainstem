@@ -1,0 +1,22 @@
+#!/bin/bash
+
+if [ "xx${1}xx" == "xxxx" ] ; then
+  echo "sayquote <quotaname>"
+  exit -1
+fi
+
+if [ "xx${1}xx" == "xx-lxx" ] ; then
+  cd ~/lib/sndbytes/
+  ls *.snd | sed -e 's/\.snd//g'
+  exit 0
+fi
+
+FNAME="${1}"
+
+if [ ! -e ~/lib/sndbytes/${FNAME}.snd ] ; then
+  echo "No quote named ${FNAME}"
+  exit -1
+fi
+
+cat ~/lib/sndbytes/${FNAME}.snd | nc headless1 9999
+
