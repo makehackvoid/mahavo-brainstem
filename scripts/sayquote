@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "xx${1}xx" == "xxxx" ] ; then
-  echo "sayquote <quotaname>"
+  echo "sayquote <quotename>"
   exit -1
 fi
 
