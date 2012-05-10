@@ -15,4 +15,6 @@ all: $(SOURCE)
 install: all
 	cp build/*.snd ~/lib/sndbytes/
 
+clean:
+	rm build/*.snd
 

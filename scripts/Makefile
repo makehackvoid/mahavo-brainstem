@@ -1,4 +1,4 @@
-
+all:
 
 install:
 	install start_broker ${HOME}/bin/
