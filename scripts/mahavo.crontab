@@ -22,5 +22,5 @@
 # m h  dom mon dow   command
 @reboot              ${HOME}/bin/start_broker
  0  18 *   *   2     ${HOME}/bin/deploy_mahavo.sh
-
+35   0 *   *   *     ${HOME}/bin/sayquote alarmwarning
 
